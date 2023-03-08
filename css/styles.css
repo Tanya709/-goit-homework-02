@@ -69,9 +69,11 @@ body {
   color: #404bbf;
 }
 /*========== ADDRESS =========*/
-
 .contacts {
   font-style: normal;
+}
+.link-address {
+  color: var(--primary-text-color);
 }
 /*===========  HERO ========*/
 .hero {
