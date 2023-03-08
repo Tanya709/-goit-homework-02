@@ -26,6 +26,20 @@ body {
 .link {
   text-decoration: none;
 }
+/*========TEXT=========*/
+.title-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
 /*=========== logo ===========*/
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -48,7 +62,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color);
+  color: var(--title-text-color);
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -59,7 +73,19 @@ body {
 .contacts {
   font-style: normal;
 }
-/*=========== BUTTON ========*/
+/*===========  HERO ========*/
+.hero {
+  background-color: #2e2f42;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--cite-white-color);
+}
+/*BUTTON*/
 .modal-btn {
   font-family: inherit;
   font-weight: 500;
@@ -74,7 +100,40 @@ body {
   background-color: var(--accent-color);
   color: var(--cite-white-color);
 }
-/* =========== FILTER BUTTON ===========*/
+/*==========SECOND SECTION==========*/
+.title-second-section {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+/*========== SECTION WHAT WE DOING =======*/
+.title-work-examples {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+  text-align: center;
+  text-transform: capitalize;
+}
+/*========== SECTIONS OUR TEAM ==========*/
+.our-team {
+  background-color: var(--second-accent-grey);
+}
+.title-section-team {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* =========== SECTION PORTFOLIO ===========*/
+
 .filter-btn {
   font-family: inherit;
   font-weight: 500;
@@ -90,65 +149,8 @@ body {
   background-color: var(--accent-color);
   color: var(--cite-white-color);
 }
-/* ========== TEXT ===========*/
-.title-text {
-  font: weight 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--title-text-color);
-}
-.title-second-section {
+.title-portfolio {
   font-weight: 500;
-  font-size: 36px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--title-text-color);
-}
-.title-work-examples {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  color: var(--title-text-color);
-  text-align: center;
-  text-transform: capitalize;
-}
-
-.title-section-team {
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  color: var(--title-text-color);
-  text-align: center;
-  text-transform: capitalize;
-}
-.title-section {
-  font-weight: 500;
-}
-
-.text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
-}
-/*========= HERO SECTION =============*/
-.hero {
-  background-color: #2e2f42;
-}
-.hero-title {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: var(--cite-white-color);
-}
-/*========== SECTIONS ==========*/
-.our-team {
-  background-color: var(--second-accent-grey);
 }
 /*========== FOOTER =============*/
 .footer {
@@ -158,5 +160,5 @@ body {
   color: var(--text-footer);
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
